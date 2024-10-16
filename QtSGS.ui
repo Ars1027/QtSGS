@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtSGSClass</class>
+ <widget class="QWidget" name="QtSGSClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1800</width>
+    <height>1500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2000</width>
+    <height>2000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QtSGS</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="TipInfo1">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>80</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>当前位置：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="StartBox">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>120</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择当前位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>北门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>校友林</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍H座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍E座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍G座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医务室</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍D座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>人行天桥</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心公交站东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心公交站西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>行政楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>综合楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍F座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍J座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第三食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>景观水池</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍C座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍I座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路大门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第一食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>室外运动场东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>田径训练场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>钟楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍B座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍A座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主校门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>室外运动场西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头大学公交站东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头大学公交站西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>行政楼转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医务室转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实验楼路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>景观水池路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>东桥路口北</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>东桥路口南</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西桥路口西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西桥路口东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>美华路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>食堂路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍I座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路大门路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>钟楼路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场三岔路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼十字路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主校门路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>美华路十字路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五洲大道路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>北门三岔路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍E座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍H座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍中心路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍F座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>体育场路口</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="TipInfo3">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>300</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>终点位置：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ScanService">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>160</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>扫描附近重要地点</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TipInfo2">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>200</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>途径位置：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TipInfo4">
+   <property name="geometry">
+    <rect>
+     <x>1620</x>
+     <y>420</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>100</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>导航策略：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="NavigationBox">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>460</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择导航策略</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>步行最短距离</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>骑行最短距离</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="StartSearch">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>570</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>开始导航</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="changeTimeF">
+   <property name="geometry">
+    <rect>
+     <x>1610</x>
+     <y>700</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>加速</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="changeTimeS">
+   <property name="geometry">
+    <rect>
+     <x>1610</x>
+     <y>740</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>减速</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StopSearch">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>620</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>200</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>停止导航</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="EndBox">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>340</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>请选择终点位置</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>北门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>校友林</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍H座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍E座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍G座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医务室</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍D座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>人行天桥</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心公交站东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心公交站西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>体育馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>行政楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>综合楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍F座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍J座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第三食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>景观水池</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍C座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍I座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路大门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头体育中心</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第一食堂</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>室外运动场东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>田径训练场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>钟楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍B座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍A座</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主校门</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>室外运动场西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头大学公交站东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>汕头大学公交站西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>行政楼转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>医务室转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>实验楼路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>景观水池路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>东桥路口北</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>东桥路口南</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西桥路口西</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西桥路口东</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>美华路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>食堂路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍I座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学海路大门路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>钟楼路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场三岔路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>南广场转角路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>教学楼十字路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主校门路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>美华路十字路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>五洲大道路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>北门三岔路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍E座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍H座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍中心路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>学生宿舍F座路口</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>体育场路口</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1560</x>
+     <y>240</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(244, 244, 244);</string>
+   </property>
+   <property name="text">
+    <string>点击选择途径点</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtSGS.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>clickSwitchButton()</slot>
+ </slots>
+</ui>
